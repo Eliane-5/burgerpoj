@@ -1,0 +1,151 @@
+*{
+    overflow:auto;
+  }
+  html{
+    background-image:url("https://static01.nyt.com/images/2016/04/18/dining/18COOKING-MCBITTYBEANBURGERS2/18COOKING-MCBITTYBEANBURGERS2-articleLarge.jpg");
+    background-size:cover;
+    overflow:auto;
+  }
+  h1, h3{
+    text-align:center;
+    color:black;
+    margin-top:20px;
+    font-weight:bolder;
+    font-family:sans-serif,"Times New Roman", Times;
+    letter-spacing:5px;
+    overflow:hidden;
+  }
+  h3{
+    padding:10px;
+    border-bottom:2px dotted Black;
+    overflow:hidden;
+  }
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:10px;
+    text-align:center;
+    background-color:black;
+  }
+  li{
+    display:inline;
+    padding:10px;
+  }
+  a{
+    text-decoration:none;
+    color:White;
+  }
+  a:hover{
+    padding:10px;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    text-decoration:none;
+    transition:0.6s ease;
+  }
+  .about{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    float:right;
+    clear:both;
+    font-weight:900;
+    line-height:150%;
+    margin-right:20px;
+    letter-spacing:3px;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);  
+  } 
+  h2{
+    text-decoration:underline;
+    text-align:center;
+    overflow:hidden;
+  }
+  footer{
+    background-color:black;
+    color:white;
+    margin:0;
+    text-align:center;
+    width:100%;
+  }
+    /*STYLING OF MENU*/
+  ol{
+    list-style-type:none;
+    margin:0;
+    padding:10px;
+    text-align:center;
+  }
+  ol > li{
+    display:block;
+    overflow:hidden;
+  }
+  p{
+    text-align:center;
+  }
+  .burgers , .Drinks{
+    width: 500px;
+    height: 500px;
+    color:yellow;
+    font-weight:900;
+    line-height:150%;
+    margin:20%;
+    letter-spacing:3px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+  
+  /* contact us*/
+  .fa {
+    padding:20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .connect{
+    width: 200px;
+    height: 150px;
+    color:white;
+    font-weight:900;
+    line-height:100%;
+    margin:5px;
+    padding:30px;
+    letter-spacing:3px;
+    background-color: black;
+    border: 1px dashed black;
+  }
+  .contact{
+    width: 350px;
+    height: 300px;
+    color:orange;
+    font-weight:900;
+    line-height:150%;
+    margin:5px;
+    letter-spacing:3px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+  #flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: white;
+    color: #55ACEE;
+  }
+  .fa-instagram{
+    background:red;
+    color:white;
+  }
+  
